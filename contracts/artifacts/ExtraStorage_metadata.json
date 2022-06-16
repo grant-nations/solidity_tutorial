@@ -106,7 +106,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/SimpleStorage.sol": "SimpleStorage"
+			"contracts/ExtraStorage.sol": "ExtraStorage"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -120,12 +120,20 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/SimpleStorage.sol": {
-			"keccak256": "0x685ad345a7584f1bc8be0363e0eaf806e0f17d02353cc59de2b924c6ccd46bf2",
+		"contracts/ExtraStorage.sol": {
+			"keccak256": "0x70a53e4a3224bec108af0a35dca7c00c41ed274387f1de088e56307a6a1c25fd",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://301f6dc4870833fffad6c8af0ac02004f4ce788e53d69d8ba2842ee94c5e7bf4",
-				"dweb:/ipfs/QmRK2bS4yFujAR4SG8ryDFipXkJXgNmGuT4LwiEv3AJFen"
+				"bzz-raw://0b8c460c7ab747d52ccc07fa4515abf6f33fa284631a24bd2bbaeeb62f0e82e9",
+				"dweb:/ipfs/QmbYKoS84X1ptwHbDFAyHzsBLtY2wpRDisUPofmFkycUCi"
+			]
+		},
+		"contracts/SimpleStorage.sol": {
+			"keccak256": "0xcb4e15f05076298a49340ae382ddb31fe820188b64caff448c01e1b6e06c8a3b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://881f993259366efff6e8a433cd3f4e82a94128349e14cc3097d469daad9e1af4",
+				"dweb:/ipfs/QmeuygtD1q8R2jNP79suQytdBKQuv6PP7Fn6GhQzBC32KQ"
 			]
 		}
 	},

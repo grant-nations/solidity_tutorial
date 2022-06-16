@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.8;
+pragma solidity ^0.8.8;
 
 contract SimpleStorage {
     uint256 internal num;
@@ -20,7 +20,7 @@ contract SimpleStorage {
     }
 
 
-    function store(uint256 _num) public {
+    function store(uint256 _num) public virtual {
         num = _num;
     }
 
