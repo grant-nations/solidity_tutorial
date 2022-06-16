@@ -24,8 +24,14 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "num",
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "nameToNumber",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -115,11 +121,11 @@
 	},
 	"sources": {
 		"contracts/SimpleStorage.sol": {
-			"keccak256": "0x6be97fe3baae7f5217f03304359be320ec6a1037aad5dbf934c291581317563c",
+			"keccak256": "0x1581fd7e716a0ccb4b5b19689778afafad03b2f1536c89ec985cdf8c6ca8a244",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ba72e843a08dcd63c8e0902f7028d307da2e619ed76f94bdcedd92d8ba0c0aa2",
-				"dweb:/ipfs/QmcMqWiC6iQHBqMSAP7EbBbvV1Stb6eT3CFKXBgsMTaZKH"
+				"bzz-raw://f587f4747b27e90c635336d4589321a6d8ec5688ab9bc9237601fb42650d72cf",
+				"dweb:/ipfs/QmNoNqA7n695Hb8ThEWk9WisQTxTapa6KXicib5k1Wz6DB"
 			]
 		}
 	},

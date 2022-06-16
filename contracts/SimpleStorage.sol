@@ -2,7 +2,7 @@
 pragma solidity 0.8.8;
 
 contract SimpleStorage {
-    uint256 public num;
+    uint256 internal num;
 
     People[] public people;
 
@@ -11,8 +11,12 @@ contract SimpleStorage {
         string name;
     }
 
-    function addPerson(string memory _name, uint256 _num) public {
+
+    mapping(string => uint256) public nameToNumber;
+
+    function addPerson(string calldata _name, uint256 _num) public {
         people.push(People(_num, _name));
+        nameToNumber[_name] = _num;
     }
 
 
